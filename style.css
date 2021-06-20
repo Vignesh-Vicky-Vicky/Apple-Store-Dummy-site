@@ -1,0 +1,259 @@
+*{
+    padding-top: 0;
+    margin: 0;
+}
+
+html body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.950);
+    top: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+.container .appleLogo{
+    width: 30px;
+    margin: 0px 30px;
+    padding-bottom: 10px;
+}
+
+.notification{
+    background-color: #f5f5f7;
+    margin-top: 100px;
+    width: 80%;
+    font-size: 20px;
+    padding:20px;
+    text-align: center;
+}
+.image12Pro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 850px;
+    margin: 100px auto 50px;
+    width: 100%;
+}
+
+.image12Pro img{
+    width: 70%;
+    margin:0px 20px;
+    border-radius: 20px;
+}
+
+#blackPhone{
+    box-shadow: 10px 15px 20px 5px rgba(0, 0, 0, 0.300);
+}
+
+.productIphone{
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+
+.iphoneImages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    max-height: 1100px;
+    overflow: scroll;
+    padding:20px;
+}
+.iphoneImages::-webkit-scrollbar {
+    display: none;
+}
+.iphoneImages div{
+    min-width: 180px;
+    max-width: 180px;
+    height: 320px;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.100);
+    padding:20px;
+    border-radius: 20px;
+}
+.iphoneImages div:hover{
+    border: 1px solid rgba(128, 128, 128, 0.200);
+}
+.iphoneImages img{
+    width: 130px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    transition: transform 0.3s;
+}
+.iphoneImages img:hover{
+    transform: scale(1.15);
+}
+
+.iPadContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ipadImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin:20px 0px 30px 0px;
+}
+.ipadImage img{
+    width: 70%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.150);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.ipadProducts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+    width: 90%;
+    padding: 30px;
+    overflow: scroll;
+}
+.ipadProducts::-webkit-scrollbar {
+    display: none;
+}
+.ipadProducts div{
+    min-width: 230px;
+    max-width: 230px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.100);
+    text-align: center;
+    cursor: pointer;
+    margin: 20px;
+}
+.ipadProducts div:hover{
+    border: 1px solid rgba(128, 128, 128, 0.200);
+}
+
+.ipadProducts img{
+    width: 140px;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+}
+.ipadProducts img:hover{
+    transform: scale(1.15);
+}
+.watchContainer{
+    margin-bottom: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.watchimage img{
+    width: 90%;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 25px 10px rgba(0, 0, 0, 0.356);
+}
+
+.watchProducts{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    overflow: scroll;
+}
+.watchProducts::-webkit-scrollbar{
+    visibility: hidden;
+}
+.watchProducts div{
+    min-width: 230px;
+    max-width: 230px;
+    height: 380px;
+    margin: 20px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.150);
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.watchProducts div:hover{
+    border: 1px solid rgba(128, 128, 128, 0.200);
+}
+
+.watchProducts img{
+    width: 130px;
+    transition: width 0.3s;
+    cursor: pointer;
+}
+.watchProducts img:hover{
+    width: 150px;
+}
+
+.macContainer{
+    margin-bottom: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.macImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.macImage img{
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.300);
+    margin-top: 20px;
+}
+.macImage a{
+    margin-top: 50px;
+    font-size: 30px;
+    color: rgb(31, 30, 30);
+}
+
+footer{
+    min-height: 100px;
+    width: 100%;
+    background-color: #fbfbfb;
+    padding: 50px;
+    color: rgb(78, 77, 77);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.100);
+    border-radius: 30px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    html body{
+        display: column;
+    }
+    .image12Pro{
+        flex-direction: column;
+    }
+    .image12Pro img{
+        margin: 30px 0px;
+    }
+  }
